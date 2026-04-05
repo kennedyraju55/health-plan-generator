@@ -1,0 +1,10 @@
+requests
+rich
+click
+pyyaml
+streamlit
+pandas
+
+[dev]
+pytest
+pytest-cov
