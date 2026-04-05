@@ -28,21 +28,21 @@ def main():
     # Get milestones for a given goal.
     print("📝 Example: get_milestones_for_goal()")
     result = get_milestones_for_goal(
-        goal="lose weight and build muscle"
+        goal="improve overall fitness"
     )
     print(f"   Result: {result}")
     print()
     # Generate adaptive recommendations based on progress.
     print("📝 Example: generate_adaptive_recommendation()")
     result = generate_adaptive_recommendation(
-        tracker=3
+        tracker="sample data"
     )
     print(f"   Result: {result}")
     print()
     # Generate a wellness plan using the LLM.
     print("📝 Example: generate_plan()")
     result = generate_plan(
-        goal="lose weight and build muscle"
+        goal="improve overall fitness"
     )
     print(f"   Result: {result}")
     print()
